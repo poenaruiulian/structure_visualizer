@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# Structure Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web application helps students understand how structures work by viewing the changes in real-time. Currently, two structures are implemented: **Red Black Tree** and **Binary Heap**. I've used the resources provided by my university courses and other external docs to implement the structures. The external docs can be found at the start of each structure file, down in the `structures` folder.
 
-## Available Scripts
+The visualization is made using React with the help of the [`react-d3-tree`](https://www.npmjs.com/package/react-d3-tree) package. This package helped me draw the trees, so I could focus more on the logic behind them.
 
-In the project directory, you can run:
+<img width="1710" alt="Red Black Tree Image" src="https://github.com/poenaruiulian/structure_visualizer/assets/54375582/868bb654-409f-4240-8a7e-ddda89503237">
+<img width="1710" alt="Binary Heap Image" src="https://github.com/poenaruiulian/structure_visualizer/assets/54375582/412049ad-58d0-49d3-bc1e-f8a0b9f36ef2">
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+https://github.com/poenaruiulian/structure_visualizer/assets/54375582/b9493f3d-a427-47fb-a11a-52b09daafe8b
 
-### `npm test`
+https://github.com/poenaruiulian/structure_visualizer/assets/54375582/96a91b86-423a-4b80-82a0-af6b8b30911f
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The project was made for the `Advance Data Structure` course from my university, West University of Timișoara.

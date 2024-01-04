@@ -1,4 +1,4 @@
 export const Structures = {
     RedBlackTree : "RedBlackTree",
-    BTree : "BTree"
+    BinaryHeap : "BinaryHeap"
 }

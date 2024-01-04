@@ -1,7 +1,7 @@
 class RedBlackTreeHistory {
     static history: any[] = [];
     constructor() {
-        this.history = ["qsda"]
+        this.history = []
     }
     static InsertedNode(value) {
         this.history.push("Inserted node " + value)

@@ -1,9 +1,8 @@
 import Tree from "react-d3-tree";
-import './index.css';
-import {useCenteredTree} from "./helpers/useCenteredTree";
+import {useCenteredTree} from "../helpers/useCenteredTree";
+import '../index.css';
 
-
-const RedBlackTreeVis = ({treeData}) => {
+const BinaryHeapVis = ({binaryTreeData}) => {
     const [translate, containerRef] = useCenteredTree();
     const containerStyles = {
         width: "100vw",
@@ -11,8 +10,8 @@ const RedBlackTreeVis = ({treeData}) => {
     };
     return (
         <div style={containerStyles} ref={containerRef}>
-            {treeData !== undefined && <Tree
-                data={treeData}
+            {binaryTreeData !== undefined && <Tree
+                data={binaryTreeData}
                 translate={translate}
                 orientation={"vertical"}
                 renderCustomNodeElement={(node) => {
@@ -24,7 +23,7 @@ const RedBlackTreeVis = ({treeData}) => {
                                 padding: 10,
                                 borderRadius: 50
                             }}>
-                                <h3 style={{textAlign: "center", color: "white"}}>{node.nodeDatum.name}</h3>
+                                <h3 style={{textAlign: "center", color: "#DCF2F1"}}>{node.nodeDatum.name}</h3>
                             </div>
                         </foreignObject>
                     )
@@ -34,4 +33,4 @@ const RedBlackTreeVis = ({treeData}) => {
     )
 }
 
-export default RedBlackTreeVis
+export default BinaryHeapVis
